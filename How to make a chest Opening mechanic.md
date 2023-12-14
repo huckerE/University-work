@@ -55,8 +55,8 @@ After that you go to the parameters tab and then click the plus, select "Trigger
 
 
 Next create a new script and call it ChestOpen and copy the code below:
-
-  using System;
+```
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -79,7 +79,7 @@ public class ChestOpen : MonoBehaviour
         }
     }
 }
-
+```
   
 
 Lastly drag and drop the script ChestOpen into the parent Object and the drag and drop the parent Object under Animator inside the ChestOpen script. Finally drag and drop the script ChestOpen into the parent Object and the drag and drop the parent Object under Animator inside the ChestOpen script. 

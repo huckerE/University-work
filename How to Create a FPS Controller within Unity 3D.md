@@ -32,7 +32,7 @@ After that, your going to drag and move the Main Camera inside the "FPSPlayer" a
 Now that thats done Create a new Script and call it "SC_FPSController" and then copy then copy the code below 
 
  ![Tutorial 1 - 7](https://github.com/huckerE/University-work/assets/146854478/d02555f1-7d87-465f-afb1-34f061f3b27b)
-
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -107,7 +107,7 @@ public class SC_FPSController : MonoBehaviour
         }
     }
 }
-
+```
 
 
 

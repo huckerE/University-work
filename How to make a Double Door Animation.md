@@ -46,7 +46,7 @@ Next you go to the parameters and add a trigger parameter and call it "DoorOpen"
   
 
 After that create a new script called "DoorOpen" and copy the code below:
-
+```
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -78,7 +78,7 @@ public class DoorOpen : MonoBehaviour
         Destroy(item.gameObject);
     }
 }
-
+```
 
   
 

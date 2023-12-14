@@ -31,8 +31,8 @@ Next create a Empty Object and name it ItemParent and then move the object to wh
 Create a new script and name it EquipItem and the copy the code below. 
 
   ![tutorial 2 - 6](https://github.com/huckerE/University-work/assets/146854478/6565e6a2-bcfb-4275-afe8-33850d189b40)
-
-  using System;
+```
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -112,7 +112,7 @@ public class EquipItem : MonoBehaviour
         return !Key.GetComponent<MeshCollider>().enabled;
     }
 }
-
+```
 
 Next of all We need to go to the key object and go to the layer drop down and select add layer and name it "Pickup" and then assign the key object so it now has the "Pickup" layer. 
 
